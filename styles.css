@@ -1,0 +1,171 @@
+@media only screen and (max-width: 570px) {
+  div.menu {
+    width: 70%;
+  }
+
+  footer.footer {
+    display: block;
+    line-height: 3px;
+  }
+
+  div.map {
+    text-align: center;
+  }
+
+  p.address {
+    text-align: center;
+    padding-left: 4rem;
+  }
+
+  p.footnote-name {
+    margin-top: 2rem;
+  }
+}
+
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.88rem;
+}
+
+h4 {
+  font-weight: 800;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: Impact, serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-color: peru;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  width: 100%;
+}
+
+.top-logo {
+  height: auto;
+  width: auto;
+  max-width: 4rem;
+}
+
+.button {
+  box-shadow: inset 0px 1px 0px 0px #a6827e;
+  background: linear-gradient(to bottom, #7d5d3b 5%, #0d0d0d 100%);
+  background-color: #7d5d3b;
+  border-radius: 9px;
+  display: inline-block;
+  cursor: pointer;
+  color: #c2a380;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #4d3534;
+  margin-bottom: 20%;
+}
+
+.button:hover {
+  background: linear-gradient(to bottom, #0d0d0d 5%, #7d5d3b 100%);
+  background-color: #0d0d0d;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.established {
+  font-style: italic;
+}
+
+.menu {
+  width: 100%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 1.25rem;
+  max-width: 31.2rem;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -1.6rem;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 1.6rem;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  line-height: 25%;
+  font-weight: bold;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10rem;
+  background-color: peru;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  width: 100%;
+  line-height: 0.95rem;
+}
+
+.footnote-name {
+  font-weight: 900;
+}
+
+footer p:hover {
+  color: blue;
+}
+
+.address {
+  font-size: 0.5rem;
+  padding-right: 15%;
+}
+
+#flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+#flex-container>footer {
+  margin-top: auto;
+}
